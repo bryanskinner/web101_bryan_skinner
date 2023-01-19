@@ -1,4 +1,103 @@
 body {
-  background-color: aqua;
-  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./portfolio-background.jpg);
+}
+
+/* What kind of selector is this? */
+.logo {
+  width: 400px;
+  height: 400px;
+  margin: 2% 10%;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+/* This is an element within and element selector */
+nav > a {
+  margin: 2% 1% 3%;
+  height: 20%;
+  width: 25%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 37px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.has-border {
+  border-radius: px;
+  border: 3px solid black;
+  background: none;
+  padding: 0px;
+  border-style: solid;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 2%;
+}
+/* This is an ID selector */
+#profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 15% auto;
+  grid-column: 2/3;
+}
+
+h1 {
+  color: black;
+  grid-column: 2/3;
+  margin: 3% auto;
+  border-bottom: 2px solid black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
+}
+
+.small-text {
+  grid-column: 2/3;
+  color: white;
+  font-size: 10px;
+  margin: 3% auto;
+}
+
+button {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 70%;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 20px;
+  padding-bottom: 5%;
+  text-align: center;
+  color: white;
+  letter-spacing: 16px;
+  font-style: italic;
 }
