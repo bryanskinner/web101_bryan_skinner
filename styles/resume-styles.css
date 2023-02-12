@@ -135,7 +135,7 @@ body {
 .skills {
   grid-row: 5/6;
   grid-column: 1/2;
-  border-right: 10px black;
+  border-color: 10px black;
 }
 
 .hr3 {

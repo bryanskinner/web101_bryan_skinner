@@ -1,0 +1,132 @@
+
+.container-1 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:100px;
+width: auto;
+background-color: lightblue;
+font-family: 'Libre Baskerville', serif;
+}
+
+
+.container-2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 30px;
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+line-height: 35px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.box-1 {
+    height: 20px;
+    width: 250px;
+    background-color: aqua;
+}
+
+.box-2 {
+    height: 20px;
+    width: 200px;
+    background-color: orange;
+}
+
+.box-3 {
+    height: 20px;
+    width: 150px;
+    background-color: lightpink
+}
+
+
+
+/* Large devices (laptops/desktops, 600px and up) */
+@media only screen and (min-width: 900px) {
+
+    .container-3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .container-1 {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 48px;
+        height: 200px;
+    }
+
+        .container-2 {
+            font-weight: bold;
+            line-height: 75px;
+            font-size: 40px;
+        }
+
+
+    .box-1 {
+        height: 20px;
+        width: 800px;
+        background-color: aqua;
+    }
+    
+    .box-2 {
+        height: 20px;
+        width: 600px;
+        background-color: orange;
+    }
+    
+    .box-3 {
+        height: 20px;
+        width: 500px;
+        background-color: lightpink
+    }
+    
+}
+
+@media only screen and (min-width: 880px) {
+
+    .box-1 {
+        height: 20px;
+        width: 600px;
+        background-color: aqua;
+    }
+    
+    .box-2 {
+        height: 20px;
+        width: 500px;
+        background-color: orange;
+    }
+    
+    .box-3 {
+        height: 20px;
+        width: 400px;
+        background-color: lightpink
+    }
+
+
+
+}
+
+
+
